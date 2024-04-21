@@ -72,6 +72,11 @@
 }
 
 /* If you want to ensure that all elements do not show a scrollbar */
-* {
+/* * {
   overflow: hidden;
+} */
+
+#root {
+  height: calc(100vh - 3rem);
+  width: 100vw;
 }

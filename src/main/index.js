@@ -3,7 +3,7 @@ import { join } from "path";
 import { electronApp, optimizer, is } from "@electron-toolkit/utils";
 import icon from "../../resources/icon.png?asset";
 
-const addon = require("C:/addon");
+const addon = require("../../build/Release/addon");
 
 console.log(addon.greet()); // 'Hello from C++!'
 
