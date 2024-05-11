@@ -12,11 +12,15 @@ import LoginPage from "./pages/LoginPage";
 import ChatPage from "./pages/ChatPage";
 import SettingsPage from "./pages/SettingsPage";
 import ProfilePage from "./pages/ProfilePage";
+import CallsPage from "./pages/CallsPage";
+import CameraPage from "./pages/CameraPage";
 
 const appRouter = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<ChatPage />} />
+      <Route path="calls" element={<CallsPage />} />
+      <Route path="camera" element={<CameraPage />} />
       <Route path="settings" element={<SettingsPage />} />
       <Route path="profile" element={<ProfilePage />} />
     </Route>

@@ -79,4 +79,5 @@
 #root {
   height: calc(100vh - 3rem);
   width: 100vw;
+  display: flex;
 }
